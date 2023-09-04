@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Tabs.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="main-header" id="header">
+            <div class="left-header">
+                <div class="search" id="search">
+                    <i class="fa-solid fa-magnifying-glass d-none d-lg-block" onclick="searchBox()" id="magnifying-glass"></i>
+                    <div class="search-box" id="search-box">
+                        <input type="text" id="search-input" onkeyup="searchFunction()" placeholder="Search..." title="Type in a name">
+                        <ul id="search-list">
+                            <li><a href="products.html">محصولات</a></li>
+                            <li><a href="news.html">اخبار</a></li>
+                            <li><a href="essay.html">مقالات</a></li>
+                            <li><a href="notebook-new-employee.html">کتبچه ها</a></li>
+                            <li><a href="downloads.html">دانلود ها</a></li>
+                            <li><a href="history.html">درباره ما</a></li>
+                            <li><a href="contact.html">تماس با ما</a></li>
+                            <li><a href="coworking.html">استخدام</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="languages" id="languages">
+                    <p class="curent-language">فا</p>
+                    <div class="languages-other">
+                        <img src="../IMG/flag-En.png" alt="English">
+                        <a href="#">En</a>
+                        <img src="../IMG/flag-Ru.png" alt="Russia">
+                        <a href="#">Ru</a>
+                        <img src="../IMG/flag-Cn.png" alt="China">
+                        <a href="#">Cn</a>
+                        <img src="../IMG/flag-Arb.png" alt="Arabic">
+                        <a href="#">Arb</a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-header" id="menu" >
+                <ul class="rtl">
+                    <li><a href="../index.html">صفحه اصلی</a></li>
+                    <li><a href="news.html">اخبار</a></li>
+                    <li><a href="products.html">محصولات</a></li>
+                    <li> 
+                        <div class="inner-tabs-container">
+                            <p><a href="service.html">خدمات</a></p>
+                            <div class="inner-tabs rtl">
+                                <a href="essay.html">مقالات</a>
+                                <a href="notebook-new-employee.html">کتابچه بدو استخدام</a>
+                                <a href="downloads.html">دانلود</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="history.html">درباره ما</a></li>
+                    <li><a href="contact.html">تماس با ما</a></li>
+                    <li><a href="coworking.html">استخدام</a></li>
+                </ul>
+            </div>
+            <div class="logo-header" id="logo-header">
+            </div>
+            <button class="header-menu-burger" onclick="showMenu()"><i class="fas fa-bars"></i></button>
+        </div>
+    </div>
+    <main>
+        <div class="under-header-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="head-title-2 rtl">
+                            <h2> تولید قطعات پلیمری خودرو</h2>
+                            <p>تولید قطعات پلاستیکی موتور و بدنه ، طراحی و تولید قالب های تزریق پلاستیک ، تولید انواع قطعات لاستیکی و پلاستیکی</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-12 d-flex justify-content-between">
+                        <h2 class="title title-products rtl">
+                            دسته بندی ها
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="products-section-container col-12 d-flex justify-content-between rtl">
+                        <a href="#engine">
+                            <div class="products-section d-flex flex-column justify-content-center align-items-center widthout-border-right">
+                                <img src="../IMG/products-section.png" alt="section-1" class="products-section-icon">
+                                <h4>دسته 1</h4>
+                            </div>
+                        </a>
+                        <a href="#engine">
+                            <div class="products-section d-flex flex-column justify-content-center align-items-center">
+                                <img src="../IMG/products-section.png" alt="section-2" class="products-section-icon">
+                                <h4>دسته 2</h4>
+                            </div>
+                        </a>
+                        <a href="#engine">
+                            <div class="products-section d-flex flex-column justify-content-center align-items-center">
+                                <img src="../IMG/products-section.png" alt="section-3" class="products-section-icon">
+                                <h4>دسته 3</h4>
+                            </div>
+                        </a>
+                        <a href="#engine">
+                            <div class="products-section d-flex flex-column justify-content-center align-items-center">
+                                <img src="../IMG/products-section.png" alt="section-4" class="products-section-icon">
+                                <h4>دسته 4</h4>
+                            </div>
+                        </a>
+                        <a href="#engine">
+                            <div class="products-section d-flex flex-column justify-content-center align-items-center">
+                                <img src="../IMG/products-section.png" alt="section-5" class="products-section-icon">
+                                <h4>دسته 5</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12 d-flex justify-content-between">
+                    <h2 class="title title-products rtl">
+                        خدمات
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-wrap justify-content-center">
+                        <div class="news-item ">
+                            <div class="col-6">
+                                <img src="../IMG/news-1.png" alt="service-1">
+                            </div>
+                            <div class="col-6">
+                                <div class="news-text d-flex flex-column">
+                                    <h2 class="pt-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، </h2>
+                                    <p class="pt-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم .</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="col-6">
+                                <img src="../IMG/news-1.png" alt="service-2">
+                            </div>
+                            <div class="col-6">
+                                <div class="news-text d-flex flex-column">
+                                    <h2 class="pt-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، </h2>
+                                    <p class="pt-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم .</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="col-6">
+                                <img src="../IMG/news-1.png" alt="service-3">
+                            </div>
+                            <div class="col-6">
+                                <div class="news-text d-flex flex-column">
+                                    <h2 class="pt-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، </h2>
+                                    <p class="pt-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم .</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer pt-4">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-logo rtl">
+                            <img src="../IMG/logo.png" alt="Logo-footer-service">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                       <div class="footer-three rtl">
+                            <div class="col-md-6 col-sm-12 col-xs-12 d-flex justify-content-between">
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>شعبه ها</span></li>
+                                        <li>شیراز</li>
+                                        <li>تهران</li>
+                                        <li>قزوین</li>
+                                        <li>ساختمان اداری </li>
+                                        <li>ایران</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>محصولات</span></li>
+                                        <li>قالپاق سوپاپ تیبا</li>
+                                        <li>قالپاق سوپاپ تیبا </li>
+                                        <li>ریل سوخت</li>
+                                        <li>جلو پنجره سمند</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>تولید</span></li>
+                                        <li>قطعات پلیمری</li>
+                                        <li>قالبسازی</li>
+                                        <li>قالبسازی</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12 d-flex justify-content-between">
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>زبان ها</span></li>
+                                        <li>انگلیسی</li>
+                                        <li>عربی</li>
+                                        <li>روسی</li>
+                                        <li>چینی</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>شرکای ما</span></li>
+                                        <li>ایران خودرو</li>
+                                        <li>سایپا</li>
+                                        <li>مگاموتور</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>آموزش</span></li>
+                                        <li>مقالات</li>
+                                        <li>کتابچه</li>
+                                    </ul>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="border-one"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-for d-flex justify-content-between">
+                            <div class="col-sm-6 col-xs-12 d-flex">
+                                <p>Copyright © 2023 DideShoAgency. All rights reserved </p>
+                                <ul>
+                                    <li><a href="#"> Terms of use -</a></li>
+                                    <li><a href="http://dideshoagency.ir" class="ps-1"> <span> DideShoAgency</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 d-flex rtl">
+                                <ul>
+                                    <li class="text-align-r"><a href="#"> کلیه حقوق این سایت محفوظ و متعلق به شرکت <span>مژده وصل شیراز</span> مي باشد.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/app.js">
+    </script>
+</body>
+</html>

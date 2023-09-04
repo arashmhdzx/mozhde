@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css-2/bootstrap.min.css">
+    <link rel="stylesheet" href="css-2/bootstrap.rtl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="IMG/logo-2.png">
+    <title>مژده وصل شیراز</title>
+</head>
+<body>
+    <div class="gif-header">
+        <div class="d-md-none d-lg-none d-xl-none">
+            <img src="IMG/133.jpg" alt="head-back">
+            <div class="w-100 p-3 mh-100" ></div>
+        </div>
+        <img src="IMG/head.gif.gif" alt="head-back" class="d-none d-md-block">
+    </div>
+    <div class="header">
+        <div class="main-header" id="header">
+            <div class="left-header">
+                <div class="search" id="search">
+                    <i class="fa-solid fa-magnifying-glass d-none d-lg-block" onclick="searchBox()" id="magnifying-glass"></i>
+                    <div class="search-box" id="search-box">
+                        <input type="text" id="search-input" onkeyup="searchFunction()" placeholder="Search..." title="Type in a name">
+                        <ul id="search-list">
+                            <li><a href="page/products.html">محصولات</a></li>
+                            <li><a href="page/news.html">اخبار</a></li>
+                            <li><a href="page/essay.html">مقالات</a></li>
+                            <li><a href="page/notebook-new-employee.html">کتبچه ها</a></li>
+                            <li><a href="page/downloads.html">دانلود ها</a></li>
+                            <li><a href="page/history.html">درباره ما</a></li>
+                            <li><a href="page/contact.html">تماس با ما</a></li>
+                            <li><a href="page/coworking.html">استخدام</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="languages" id="languages">
+                    <p class="curent-language">فا</p>
+                    <div class="languages-other">
+                        <img src="IMG/flag-En.png" alt="English">
+                        <a href="#">En</a>
+                        <img src="IMG/flag-Ru.png" alt="Russia">
+                        <a href="#">Ru</a>
+                        <img src="IMG/flag-Cn.png" alt="China">
+                        <a href="#">Cn</a>
+                        <img src="IMG/flag-Arb.png" alt="Arabic">
+                        <a href="#">Arb</a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-header" id="menu" >
+                <ul class="rtl">
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="page/news.html">اخبار</a></li>
+                    <li><a href="page/products.html">محصولات</a></li>
+                    <li> 
+                        <div class="inner-tabs-container">
+                            <p><a href="page/service.html">خدمات</a><span><i class="fa fa-caret-down"></i></span></p>
+                            <div class="inner-tabs rtl">
+                                <a href="page/essay.html">مقالات</a>
+                                <a href="page/notebook-new-employee.html">کتابچه بدو استخدام</a>
+                                <a href="page/downloads.html">دانلود</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="page/history.html">درباره ما</a></li>
+                    <li><a href="page/contact.html">تماس با ما</a></li>
+                    <li><a href="page/coworking.html">استخدام</a></li>
+                </ul>
+            </div>
+            <div class="logo-header" id="logo-header">
+            </div>
+            <button class="header-menu-burger" onclick="showMenu()"><i class="fas fa-bars"></i></button>
+        </div>
+        <div class="under-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="head-title rtl">
+                            <h1>گروه صنعتی <span>مژده وصل شیراز</span></h1>
+                            <p>تولید قطعات پلاستیکی موتور و بدنه ، طراحی و تولید قالب های تزریق پلاستیک ، تولید انواع قطعات لاستیکی و پلاستیکی</p>
+                            <button>درباره ما</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-photo">
+                <div class="container">
+                    <div class="row rtl">
+                        <div class="col-12 d-flex justify-content-center scrollauto">
+                            <img src="IMG/11.png" alt="scrollauto1" class="for-scroll">
+                            <img src="IMG/122.jpg" alt="scrollauto2">
+                            <img src="IMG/133.jpg" alt="scrollauto3">
+                            <img src="IMG/11.png" alt="scrollauto4">
+                            <img src="IMG/122.jpg" alt="scrollauto5">
+                            <img src="IMG/133.jpg" alt="scrollauto6">
+                            <img src="IMG/11.png" alt="scrollauto7">
+                            <img src="IMG/122.jpg" alt="scrollauto8">
+                            <img src="IMG/133.jpg" alt="scrollauto9">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <main>
+        <div class="container m-top-2">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main-title rtl">
+                        <h2>تولیدات لاستیکی</h2>
+                        <p>تولید انواع قطعات لاستیکی و پلاستیکی</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 main-box">
+                    <div class="col-md-6 col-xs-12">
+                        <div class="main-photo d-flex align-items-center">
+                            <button  onclick="previous()"><i class="fa fa-caret-left fa-1x" id="btn-next"></i></button>
+                            <div class="d-flex overflow-hidden slider-container" id="cars">
+                                <img src="IMG/car-1.png" alt="car-1">
+                                <img src="IMG/car-2.png" alt="car-2">
+                                <img src="IMG/car-3.png" alt="car-3">
+                                <img src="IMG/main-pgoto.png" alt="car-4">
+                            </div>
+                            <button onclick="next()"><i class="fa fa-caret-right fa-1x" id="btn-previous"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12 overflow-hidden slider-info" id="car-info">
+                        <div class="detail-a rtl">
+                            <h2>تولیدات لاستیکی</h2>
+                            <p>تولید انواع قطعات لاستیکی و پلاستیکی ،تولید انواع قطعات لاستیکی و پلاستیکی ، تولید انواع قطعات لاستیکی و پلاستیکی</p>
+                        </div>
+                        <div class=" detail-a rtl">
+                            <h2>تولیدات لاستیکی</h2>
+                            <p>تولید انواع قطعات لاستیکی و پلاستیکی ،تولید انواع قطعات لاستیکی و پلاستیکی ، تولید انواع قطعات لاستیکی و پلاستیکی</p>
+                        </div>
+                        <div class=" detail-a rtl">
+                            <h2>تولیدات لاستیکی</h2>
+                            <p>تولید انواع قطعات لاستیکی و پلاستیکی ،تولید انواع قطعات لاستیکی و پلاستیکی ، تولید انواع قطعات لاستیکی و پلاستیکی</p>
+                        </div>
+                        <div class=" detail-a rtl">
+                            <h2>تولیدات لاستیکی</h2>
+                            <p>تولید انواع قطعات لاستیکی و پلاستیکی ،تولید انواع قطعات لاستیکی و پلاستیکی ، تولید انواع قطعات لاستیکی و پلاستیکی</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app pt-5 pb-5 rtl">
+            <div class="container pt-2">
+                <div class="row">
+                    <div class="col-12 detail detail-reverse">
+                        <div class="col-lg-6 col-md-12 detail-a">
+                            <h2> تولید انواع قطعات لاستیکی و پلاستیک</h2>
+                            <p>تولید انواع قطعات لاستیکی و پلاستیکی ،تولید انواع قطعات لاستیکی و پلاستیکی ، تولید انواع قطعات لاستیکی و پلاستیکی</p>
+                            <button>بیشتر</button>
+                        </div>
+                        <div class="box-photo col-lg-6 col-md-12">
+                            <img src="IMG/SOLUTIONS-10.jpg" alt="detail-1">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 detail">
+                        <div class="box-photo col-lg-6 col-md-12">
+                            <img src="IMG/SOLUTIONS-10.jpg" alt="detail-2">
+                        </div>
+                        <div class="col-lg-6 col-md-12 detail-a">
+                            <h2> تولید انواع قطعات لاستیکی و پلاستیک</h2>
+                            <p>تولید انواع قطعات لاستیکی و پلاستیکی ،تولید انواع قطعات لاستیکی و پلاستیکی ، تولید انواع قطعات لاستیکی و پلاستیکی</p>
+                            <button>بیشتر</button>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="information">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 info-bar">
+                        <h2>مژده وصل شیراز </h2>
+                        <p>ما برآنیم به عنوان سازنده برتر در تولید محصولات پلیمری جانبی موتور و با توجه به تحریم ها نسبت به داخلی سازی قطعات اقدام نموده و همچنین یکی از تامین کنندگان محصولات فوق برای بازار کشورهای منطقه باشیم.
+                        </p>
+                        <a href="page/history.html">درباره ما</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-site-logo">
+                        <img src="IMG/logo-2.png" alt="logo">
+                        <p>
+                            بیشتر راجب <span>ما</span>  بدانید
+                        </p>
+                        <a href="page/news.html">
+                            اخبار مارا دنبال کنید
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="border-to"></div>
+        </div>
+        <div class="container">
+            <div class="container d-none d-md-block">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center">
+                        <button onclick="footerGoL()"><i class="fa fa-caret-left fa-1x" id="btn-next-footer"></i></button>
+                        <div class="footer-to" id="footer-to">
+                            <img src="IMG/footer-logo-1.png" alt="footer-logo-1">
+                            <img src="IMG/footer-logo-2.png" alt="footer-logo-2">
+                            <img src="IMG/footer-logo-3.png" alt="footer-logo-3">
+                            <img src="IMG/footer-logo-4.png" alt="footer-logo-4">
+                            <img src="IMG/footer-logo-5.png" alt="footer-logo-5">
+                            <img src="IMG/footer-logo-6.png" alt="footer-logo-6">
+                            <img src="IMG/footer-logo-1.png" alt="footer-logo-7">
+                            <img src="IMG/footer-logo-2.png" alt="footer-logo-8">
+                            <img src="IMG/footer-logo-3.png" alt="footer-logo-9">
+                            <img src="IMG/footer-logo-4.png" alt="footer-logo-10">
+                            <img src="IMG/footer-logo-5.png" alt="footer-logo-11">
+                            <img src="IMG/footer-logo-6.png" alt="footer-logo-12">
+                            <img src="IMG/footer-logo-1.png" alt="footer-logo-13">
+                            <img src="IMG/footer-logo-2.png" alt="footer-logo-14">
+                            <img src="IMG/footer-logo-3.png" alt="footer-logo-15">
+                            <img src="IMG/footer-logo-4.png" alt="footer-logo-16">
+                            <img src="IMG/footer-logo-5.png" alt="footer-logo-17">
+                            <img src="IMG/footer-logo-6.png" alt="footer-logo-18">
+                            <img src="IMG/footer-logo-1.png" alt="footer-logo-19">
+                            <img src="IMG/footer-logo-2.png" alt="footer-logo-20">
+                            <img src="IMG/footer-logo-3.png" alt="footer-logo-21">
+                            <img src="IMG/footer-logo-4.png" alt="footer-logo-22">
+                            <img src="IMG/footer-logo-5.png" alt="footer-logo-23">
+                            <img src="IMG/footer-logo-6.png" alt="footer-logo-24">
+                        </div>
+                        <button onclick="footerGoR()"><i class="fa fa-caret-right fa-1x" id="btn-next-footer"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-lg-none d-md-none">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center justify-content-between">
+                        <div class="footer-to">
+                            <img class="for-scroll" src="IMG/footer-logo-1.png" alt="footer-logo-1-sm">
+                            <img class="me-5" src="IMG/footer-logo-2.png" alt="footer-logo-2-sm">
+                            <img class="me-5" src="IMG/footer-logo-3.png" alt="footer-logo-3-sm">
+                            <img class="me-5" src="IMG/footer-logo-4.png" alt="footer-logo-4-sm">
+                            <img class="me-5" src="IMG/footer-logo-5.png" alt="footer-logo-5-sm">
+                            <img class="me-5" src="IMG/footer-logo-6.png" alt="footer-logo-6-sm">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="border-to"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="news-header">
+                            <h5>
+                                ما را دنبال کنید
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <di class="row pt-3">
+                    <div class="col-12">
+                        <div class="follow d-flex justify-content-center align-items-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </di>
+            </div>
+            <div class="container">
+                <div class="border-to"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-logo rtl">
+                            <img src="IMG/logo.png" alt="Logo-footer-index">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-three rtl">
+                            <div class="col-md-6 col-sm-12 col-xs-12 d-flex justify-content-between">
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>شعبه ها</span></li>
+                                        <li>شیراز</li>
+                                        <li>تهران</li>
+                                        <li>قزوین</li>
+                                        <li>ساختمان اداری </li>
+                                        <li>ایران</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>محصولات</span></li>
+                                        <li>قالپاق سوپاپ تیبا</li>
+                                        <li>قالپاق سوپاپ تیبا </li>
+                                        <li>ریل سوخت</li>
+                                        <li>جلو پنجره سمند</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>تولید</span></li>
+                                        <li>قطعات پلیمری</li>
+                                        <li>قالبسازی</li>
+                                        <li>قالبسازی</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12 d-flex justify-content-between">
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>زبان ها</span></li>
+                                        <li>انگلیسی</li>
+                                        <li>عربی</li>
+                                        <li>روسی</li>
+                                        <li>چینی</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>شرکای ما</span></li>
+                                        <li>ایران خودرو</li>
+                                        <li>سایپا</li>
+                                        <li>مگاموتور</li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <ul>
+                                        <li><span>آموزش</span></li>
+                                        <li>مقالات</li>
+                                        <li>کتابچه</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="border-to"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-for d-flex justify-content-between">
+                            <div class="col-sm-6 col-xs-12 d-flex">
+                                <p>Copyright © 2023 DideShoAgency. All rights reserved </p>
+                                <ul>
+                                    <li><a href="#"> Terms of use -</a></li>
+                                    <li><a href="http://dideshoagency.ir" class="ps-1"> <span><b>DideShoAgency</b></span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 d-flex rtl">
+                                <ul>
+                                    <li class="text-align-r"><a href="#"> کلیه حقوق این سایت محفوظ و متعلق به شرکت <span>مژده وصل شیراز</span> مي باشد.</a></li>
+                                    <!-- <li><a href="http://dideshoagency.ir" class="ps-1"> <span> DideShoAgency</span></a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js">
+    </script>
+</body>
+</html>
