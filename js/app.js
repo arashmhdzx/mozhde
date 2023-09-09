@@ -26,6 +26,7 @@ header.onmouseout = function () {
     document.getElementById("header").className = "main-header";
   }
 }
+// 
 // function ghangeLogo() {
 //   const logo = getElementById("logo-header");
 //   logo.className = "logo-header-2";
