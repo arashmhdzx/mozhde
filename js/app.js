@@ -162,6 +162,10 @@ function searchFunction() {
       }
   }
 }
+
+function onLingClick (event){
+    document.querySelector(".languages-list").classList.toggle("d-flex-important")
+}
 function showMenu() {
   var menu = document.getElementById("menu");
   if (menu.className == "navbar-header") {

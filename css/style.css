@@ -166,11 +166,11 @@ button {
 }
 
 .logo-header {
-    background-image: url('../IMG/logo-2.png');
+    background-image: url('../assets/imageslogo-2.webp');
 }
 
 .logo-2 {
-    background-image: url('../IMG/logo.png');
+    background-image: url('../assets/imageslogo.webp');
 }
 
 .left-header {
@@ -679,7 +679,9 @@ main {
     width: 500px;
     height: auto;
 }
-
+.d-flex{
+    display: flex;
+}
 .footer-site-logo a {
     text-decoration: none;
     padding: 10px 40px;
@@ -749,7 +751,7 @@ main {
 .information {
     padding-top: 40px !important;
     padding-bottom: 40px !important;
-    background-image: url('../IMG/GLOBAL-carto-2019-Bg.png') !important;
+    background-image: url('../assets/imagesGLOBAL-carto-2019-Bg.webp') !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover !important;
